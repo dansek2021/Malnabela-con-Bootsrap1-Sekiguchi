@@ -1,0 +1,33 @@
+/* .btn-danger: :hover{
+    background: color #c73c94;
+    border: color #c73cc7;
+} 
+.navbar-light .navbar-light .nav-link: :hover{
+    color:#db0c8f
+    
+
+} */
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+.card :hover{
+    color: aquamarine;
+    text-decoration: dotted;
+}
+.card {
+    transition: all 0.3s ease-in-out;
+}
+.card :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
